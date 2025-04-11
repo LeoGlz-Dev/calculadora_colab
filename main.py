@@ -4,5 +4,8 @@ def resta(a, b):
 def resta(a, b):
     return a - b
 
-def division(a, b):
-    return a/b if b !=0 else 'Error: división por cero'
+def dividir(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: división por cero"
